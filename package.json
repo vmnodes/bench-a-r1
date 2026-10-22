@@ -1,0 +1,20 @@
+{
+  "name": "repair-jobs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Bike repair shop job list: log a job, see open jobs, mark one done.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node dev/run-local.js",
+    "test": "node test/smoke.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@vmnodes/identity": "file:vendor/vmnodes-identity-0.1.0.tgz",
+    "jose": "^5.9.0",
+    "postgres": "^3.4.9"
+  }
+}

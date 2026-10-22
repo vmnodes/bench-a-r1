@@ -1,0 +1,10 @@
+{
+  "apiVersion": "vmnodes.com/v1",
+  "roles": [
+    {
+      "name": "repair-jobs.staff",
+      "description": "Can see the list of open repair jobs, including customers' names and phone numbers, log a new job, and mark a job as done."
+    }
+  ],
+  "database": true
+}
